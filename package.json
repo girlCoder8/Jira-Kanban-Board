@@ -1,7 +1,7 @@
 {
   "name": "kanban-board",
   "version": "0.1.0",
-  "homepage": "https://beatrizsabbatini.github.io/kanban-board/",
+  "author": "girlCoder8",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.2",
@@ -25,18 +25,12 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-   "predeploy": "yarn run build",
+    "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [
@@ -45,8 +39,8 @@
       "not op_mini all"
     ],
     "development": [
-      "last 1 chrome version",
       "last 1 firefox version",
+      "last 1 chrome version",
       "last 1 safari version"
     ]
   },
